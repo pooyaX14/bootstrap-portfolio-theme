@@ -19,13 +19,14 @@
     <link rel="stylesheet" href="css/custom.css">
     <!-- Favicon-->
     <link rel="shortcut icon" href="favicon.png">
-    <!-- <meta http-equiv="Content-Security-Policy" 
-          default-src 'self'; 
+    <meta http-equiv="Content-Security-Policy" 
+          "default-src 'self'; 
           style-src 'self' 'unsafe-inline' *.googleapis.com;
-          img-src 'self' data: ; 
+          img-src 'self' data:;
+          font-src 'self' *.googleapis.com *.bootstrapcdn.com data:; 
           script-src 'self' *.google-analytics.com *.bootstrapcdn.com *.googleapis.com data:; 
-          connect-src 'self' *.google-analytics.com *.googleapis.com *.bootstrapcdn.com data:; 
-    > -->
+          connect-src 'self' *.google-analytics.com *.googleapis.com *.bootstrapcdn.com data:;" 
+    >
     <!-- Tweaks for older IEs--><!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
@@ -188,7 +189,7 @@
               <div class="col-md-6">
                 <p>You can reach out to me on <i>purnimaguptapccs[@]gmail[dot]com</i></p>
                 <p>Follow me on twitter, instagram.</p>
-                <p class="social">
+               <!--  <p class="social">
                   <a href="https://twitter.com/pooyax14" target="_blank" title="twitter" class="twitter">
                     <i class="fa fa-twitter"></i>
                   </a>
@@ -198,7 +199,7 @@
                   <a href="mailto:purnimaguptapccs@gmail.com" target="_blank" title="gmail" class="email">
                     <i class="fa fa-envelope"></i>
                   </a>
-                </p>
+                </p> -->
               </div>
             </div>
           </div>
