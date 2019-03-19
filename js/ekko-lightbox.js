@@ -398,3 +398,4 @@ License: https://github.com/ashleydw/lightbox/blob/master/LICENSE
   };
 
 }).call(this);
+

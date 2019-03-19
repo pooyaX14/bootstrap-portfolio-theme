@@ -310,15 +310,23 @@ CUSTOMERS
   display: inline-block;
   margin-top: 10px;
   margin-bottom: 10px;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+  /*-webkit-filter: grayscale(100%);
+  filter: grayscale(100%);*/
 }
 .customer img:hover {
-  -webkit-filter: grayscale(0);
-  filter: grayscale(0);
+  /*-webkit-filter: grayscale(0);
+  filter: grayscale(0);*/
 }
-/*
 
+.modal.in .modal-dialog {
+  display: flex;
+  justify-content: center;  
+}
+
+/*
 =====================
 EKKO LIGHTBOX
 =====================
@@ -820,6 +828,8 @@ STYLE SWITCHER FOR DEMO
   border: 1px solid #999999;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 0;
+  width: 50%;
+  text-align: center;
 }
 /* scaffolding */
 body {
@@ -1442,4 +1452,14 @@ p.social.social--outline a.email {
 p.social.social--outline a.link {
   color: #871AFF;
   border-color: #871AFF;
+}
+
+
+.modal.and.carousel {
+  position: fixed; // Needed because the carousel overrides the position property
+}
+
+#lightbox {
+  min-width: 500px;
+  min-height: 400px;
 }
