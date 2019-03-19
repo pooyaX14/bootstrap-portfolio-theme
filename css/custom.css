@@ -1,0 +1,6 @@
+/* your styles go here */
+@media (min-width: 768px) .col-sm-6 {
+	#customers div + div {
+  		margin-left: 20px;
+	}   
+}
