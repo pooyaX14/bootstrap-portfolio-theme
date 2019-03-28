@@ -9,3 +9,13 @@
 	width:400px; 
 	height:400px;
 }
+
+p.social a.github {
+  background-color: darkgray;
+  border-color: darkgray;
+}
+
+p.social a.linkedin {
+  background-color: #086AB6;
+  border-color: #086AB6;
+}
